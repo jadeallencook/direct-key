@@ -1,10 +1,21 @@
 import React from 'react';
 import './Section.scss';
 
-function Section() {
+function Section({title, icon, description}) {
     return (
         <section>
-            Section is working...
+            <h1>{title}</h1>
+            <div>
+                <img src={icon} />
+                <div>
+                    <p>
+                        {description}
+                    </p>
+                    <button>
+                        Learn More
+                    </button>
+                </div>
+            </div>
         </section>
       );
 }
