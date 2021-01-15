@@ -1,6 +1,10 @@
 .Stats {
+    text-align: center;
     > ol {
         padding: 0;
         list-style: none;
+    }
+    > span {
+        font-size: 0.5em;
     }
 }
