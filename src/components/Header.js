@@ -4,7 +4,10 @@ import './Header.scss';
 function Header() {
     return (
         <header>
-            Header is working...
+            <span>100 million reasons to choose Direct Key&trade; Technology</span>
+            <video>
+                <source src=""></source>
+            </video>
         </header>
       );
 }
