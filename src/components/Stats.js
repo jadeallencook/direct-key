@@ -1,5 +1,6 @@
 import React from 'react';
 import './Stats.scss';
+import Stat from './Stat';
 
 function Stats() {
     return (
