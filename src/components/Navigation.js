@@ -4,7 +4,8 @@ import './Navigation.scss';
 function Navigation() {
     return (
         <nav>
-            Navigation is working...
+            <span>Onity</span>
+            <button>Request Info</button>
         </nav>
       );
 }
