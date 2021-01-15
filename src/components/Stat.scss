@@ -1,3 +1,11 @@
 .Stat {
-    
+    background-color: #06439c;
+    color: #FFFFFF;
+    text-align: center;
+    height: 100px;
+    > h1 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding-top: 25px;
+    }
 }
