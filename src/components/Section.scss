@@ -1,3 +1,28 @@
 section {
-    
+    > h1 {
+        padding: 10px 10px;
+        background-color: #06439c;
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+    > div {
+        text-align: center;
+        > img {
+            max-width: 150px;
+            max-height: 150px;
+        }
+        > div {
+            > p {
+                margin: 15px 15px;
+            }
+            > button {
+                background-color: #06439c;
+                color: #FFFFFF;
+                border: none;
+                border-radius: 15px;
+                padding: 7.5px 15px;
+                margin: 10px 0;
+            }
+        }
+    }
 }
