@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Form from './components/Form';
 import Section from './components/Section';
-import Stats from './components/Footer';
+import Stats from './components/Stats';
 import Footer from './components/Footer';
 
 import info from './info';

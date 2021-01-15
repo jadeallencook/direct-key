@@ -1,11 +1,16 @@
 import React from 'react';
 import './Stat.scss';
 
-function Stat() {
+function Stat({header, description}) {
     return (
-        <div className="Stat">
-            Stat is working...
-        </div>
+        <li className="Stat">
+            <h1>
+                {header}
+            </h1>
+            <span>
+                {description}
+            </span>
+        </li>
       );
 }
 
