@@ -3,7 +3,7 @@ import './Navigation.scss';
 
 function Navigation() {
     return (
-        <nav className="Navigation">
+        <nav>
             Navigation is working...
         </nav>
       );

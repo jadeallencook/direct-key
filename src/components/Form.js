@@ -3,7 +3,7 @@ import './Form.scss';
 
 function Form() {
     return (
-        <form className="Form">
+        <form>
             Form is working...
         </form>
       );

@@ -3,7 +3,7 @@ import './Section.scss';
 
 function Section() {
     return (
-        <section className="Section">
+        <section>
             Section is working...
         </section>
       );
