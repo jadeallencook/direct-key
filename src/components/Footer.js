@@ -1,23 +1,26 @@
 import React from 'react';
 import './Footer.scss';
 
+import LinkedIn from '../assets/linkedin-icon.png';
+
 function Footer() {
     return (
         <footer>
             <div>
                 <span>
                     Related Links:
-            </span>
+                </span>
+                <br />
                 <span>
-                    See DirectKey’s evolution (link to timeline) | Learn more about DirectKey (link to brochure) | Get in touch (contact piece) | LinkedIn Icon (link to linkedin.com)
-            </span>
+                    See DirectKey’s Evolution | Learn more about DirectKey | Get in Touch | <img src={LinkedIn} />
+                </span>
             </div>
             <hr />
             <div>
                 <img />
                 <div>
                     <span>
-                        Privacy notice | Terms of use | Vulnerability reporting | A Carrier Company | All Rights Reserved
+                        Privacy Notice | Terms of Use | Vulnerability Reporting | A Carrier Company | All Rights Reserved
                     </span>
                     <span>
                         © 2021 Carrier

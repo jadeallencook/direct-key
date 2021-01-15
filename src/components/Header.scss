@@ -1,3 +1,39 @@
 header {
-    
+    > span {
+        padding: 7.5px 0;
+        display: inline-block;
+        width: 100%;
+        background-color: #06439c;
+        color: #FFFFFF;
+        text-align: center;
+        > span {
+            color: #009FDB;
+        }
+    }
+    > video {
+        width: 100%;
+        border-bottom: #000000 solid 1px;
+    }
+    > div {
+        text-align: center;
+        > div {
+            color: #009FDB;
+            > h1 {
+                margin-bottom: 0;
+            }
+            > span {
+                font-weight: 800;
+            }
+        }
+        > span {
+            display: inline-block;
+            color: #06439c;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+        > p {
+            margin: auto 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
