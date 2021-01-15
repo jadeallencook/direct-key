@@ -14,10 +14,11 @@ function App() {
       <Navigation />
       <Header />
       {
-        info.sections.map(({title, icon, description}, index) => {
+        info.sections.map(({title, icon, alt, description}, index) => {
           return <Section
           title={title}
           icon={icon}
+          alt={alt}
           description={description}
           key={index}
           />

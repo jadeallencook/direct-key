@@ -1,12 +1,12 @@
 import React from 'react';
 import './Section.scss';
 
-function Section({title, icon, description}) {
+function Section({title, icon, alt, description}) {
     return (
         <section>
             <h1>{title}</h1>
             <div>
-                <img src={icon} />
+                <img src={icon} alt={alt} />
                 <div>
                     <p>
                         {description}

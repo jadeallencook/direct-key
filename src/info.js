@@ -7,16 +7,19 @@ const info = {
         {
             title: 'A Direct Way to “Go Contactless”',
             icon: CloudPhone,
+            alt: 'cloud and phone',
             description: ''
         },
         {
             title: 'A Direct Way to Keep Properties and Guests Secure',
             icon: Lock,
+            alt: 'padlock',
             description: ''
         },
         {
             title: 'A Proven Solution Across Industries',
             icon: BluetoothLock,
+            alt:'digital hotel door lock',
             description: ''
         }
     ],
