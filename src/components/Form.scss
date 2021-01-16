@@ -1,5 +1,25 @@
 form {
     position: fixed;
     height: 100%;
-    width: 100%;
+    min-width: inherit;
+    > div {
+        padding: 15px 0;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+        gap: 10px;
+        justify-content: center;
+        > * {
+            min-width: 90%;
+            margin: 0 auto;
+        }
+        > input {
+            border: #06439c solid thin;
+            background-color: #FFFFFF;
+            padding: 15px;
+        }
+        > input[type=submit] {
+            color: #06439c;
+        }
+    }
 }
