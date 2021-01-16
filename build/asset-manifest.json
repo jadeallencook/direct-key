@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/direct-key/build/static/css/main.d66931e4.chunk.css",
+    "main.js": "/direct-key/build/static/js/main.1696a608.chunk.js",
+    "main.js.map": "/direct-key/build/static/js/main.1696a608.chunk.js.map",
+    "runtime-main.js": "/direct-key/build/static/js/runtime-main.43de855a.js",
+    "runtime-main.js.map": "/direct-key/build/static/js/runtime-main.43de855a.js.map",
+    "static/js/2.375d9fe8.chunk.js": "/direct-key/build/static/js/2.375d9fe8.chunk.js",
+    "static/js/2.375d9fe8.chunk.js.map": "/direct-key/build/static/js/2.375d9fe8.chunk.js.map",
+    "static/js/3.8e363974.chunk.js": "/direct-key/build/static/js/3.8e363974.chunk.js",
+    "static/js/3.8e363974.chunk.js.map": "/direct-key/build/static/js/3.8e363974.chunk.js.map",
+    "index.html": "/direct-key/build/index.html",
+    "static/css/main.d66931e4.chunk.css.map": "/direct-key/build/static/css/main.d66931e4.chunk.css.map",
+    "static/js/2.375d9fe8.chunk.js.LICENSE.txt": "/direct-key/build/static/js/2.375d9fe8.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/direct-key/build/static/media/DirectKey.0af2537c.ttf",
+    "static/media/cityscape-background.b1c257d0.png": "/direct-key/build/static/media/cityscape-background.b1c257d0.png",
+    "static/media/cloud-phone-icon.5642353b.png": "/direct-key/build/static/media/cloud-phone-icon.5642353b.png",
+    "static/media/lock-icon.0e93e37a.png": "/direct-key/build/static/media/lock-icon.0e93e37a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43de855a.js",
+    "static/js/2.375d9fe8.chunk.js",
+    "static/css/main.d66931e4.chunk.css",
+    "static/js/main.1696a608.chunk.js"
+  ]
+}
