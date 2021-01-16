@@ -1,21 +1,24 @@
 footer {
-    padding-top: 20px;
-    text-align: center;
-    > div {
-        margin: auto 10px;
-    }
-    > div:first-child {
-        > span:last-child {
-            > img {
-                max-width: 20px;
-            }
-        }
-        padding-bottom: 20px;
-    }
-    > hr {
-        margin: 0 20px;
-        border: #009FDB solid 1px;
-    }
-    > div:last-child {
-    }
+  text-align: center;
+  padding-bottom: 15px;
+  > hr {
+    margin: 25px 20px;
+    border: #009fdb solid 1px;
+  }
+  > p:first-child {
+    font-weight: bold;
+  }
+  > p:nth-child(2) {
+    font-weight: 100;
+    padding: 0 50px;
+  }
+  > img {
+    width: 25px;
+    border-radius: 3px;
+  }
+  > p:nth-child(5) {
+    color: #06439c;
+    font-size: 0.5em;
+    padding: 0 50px;
+  }
 }

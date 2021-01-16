@@ -1,29 +1,26 @@
 section {
-    > h1 {
-        padding: 10px 10px;
-        background-color: #06439c;
-        color: #FFFFFF;
-        font-weight: 400;
-    }
-    > div {
-        text-align: center;
-        > img {
-            margin: 10px 0;
-            max-width: 150px;
-            max-height: 150px;
-        }
-        > div {
-            > p {
-                margin: 15px 15px;
-            }
-            > button {
-                background-color: #06439c;
-                color: #FFFFFF;
-                border: none;
-                border-radius: 15px;
-                padding: 7.5px 15px;
-                margin: 10px 0;
-            }
-        }
-    }
+  > h4 {
+    padding: 10px 10px;
+    background-color: #06439c;
+    color: #ffffff;
+    font-weight: 100;
+  }
+  > img {
+    margin: 10px 0;
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  > p {
+    padding: 15px 15px;
+  }
+  > button {
+    background-color: #06439c;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 7.5px 15px;
+    margin-left: 15px;
+  }
 }

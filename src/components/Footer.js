@@ -4,32 +4,21 @@ import './Footer.scss';
 import LinkedIn from '../assets/linkedin-icon.png';
 
 function Footer() {
-    return (
-        <footer>
-            <div>
-                <span>
-                    Related Links:
-                </span>
-                <br />
-                <span>
-                    See DirectKey’s Evolution | Learn more about DirectKey | Get in Touch | <img src={LinkedIn} />
-                </span>
-            </div>
-            <hr />
-            <div>
-                <img />
-                <div>
-                    <span>
-                        Privacy Notice | Terms of Use | Vulnerability Reporting | A Carrier Company | All Rights Reserved
-                    </span>
-                    <span>
-                        © 2021 Carrier
-                    </span>
-                </div>
-                <img />
-            </div>
-        </footer>
-    );
+  return (
+    <footer>
+      <p>Related Links:</p>
+      <p>
+        See DirectKey’s Evolution | Learn more about DirectKey | Get in Touch
+      </p>
+      <img src={LinkedIn} alt='linkedin social link' />
+      <hr />
+      <p>
+        Privacy Notice | Terms of Use | Vulnerability Reporting | A Carrier
+        Company | All Rights Reserved
+        <br /><br />© 2021 Carrier
+      </p>
+    </footer>
+  );
 }
 
 export default Footer;
