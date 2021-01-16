@@ -1,10 +1,19 @@
 .Stat {
     background-color: #06439c;
     color: #FFFFFF;
-    height: 100px;
-    > h1 {
-        margin-top: 10px;
-        margin-bottom: 0;
-        padding-top: 25px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    text-transform: capitalize;
+    > h4 {
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+    > p {
+        margin: 0;
+        font-weight: 100;
+
     }
 }
