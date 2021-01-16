@@ -10,11 +10,11 @@ import info from './info';
 import { useState } from 'react';
 
 function App() {
-  const [toggleForm, setToggleForm] = useState(true);
-
+  const [toggleForm, setToggleForm] = useState(false);
+  
   return (
     <div className="App">
-      <Navigation />
+      <Navigation toggleForm={toggleForm} setToggleForm={setToggleForm} />
       {
         toggleForm && <Form />
       }
