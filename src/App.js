@@ -29,6 +29,8 @@ function App() {
                 alt={alt}
                 description={description}
                 key={index}
+                toggleForm={toggleForm}
+                setToggleForm={setToggleForm}
               />
             })
           }
