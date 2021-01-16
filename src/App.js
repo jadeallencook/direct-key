@@ -11,6 +11,7 @@ import info from './info';
 function App() {
   return (
     <div className="App">
+      <Form />
       <Navigation />
       <Header />
       {
