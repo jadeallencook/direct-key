@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 
 import info from './info';
 import { useState } from 'react';
+import HandSrc from './assets/holding-phone-foreground.png';
 
 function App() {
   const [toggleForm, setToggleForm] = useState(false);
@@ -20,6 +21,11 @@ function App() {
       ) : (
         <>
           <Header />
+          <img
+            src={HandSrc}
+            className="Hand"
+            alt='hand holding phone'
+          />
           {info.sections.map(({ title, icon, alt, description }, index) => {
             return (
               <Section

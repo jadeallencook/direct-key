@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Navigation.scss';
 
 import OnityLogo from '../assets/onity-logo-icon-white.png';
@@ -9,7 +9,7 @@ function Navigation({ toggleForm, setToggleForm}) {
     <nav>
       <div></div>
       <div>
-        <img src={OnityLogo} alt='onity logo' />
+        <img src={OnityLogo} alt='onity logo' onClick={() => setToggleForm(false)} />
       </div>
       <div>
         <button onClick={() => setToggleForm(!toggleForm)}>Request Info</button>

@@ -6,14 +6,14 @@ function Header() {
   return (
     <header>
       <div>
-        100 MILLION Reasons to Choose <span>Direct Key&trade;</span> Technology
+        100 MILLION Reasons to Choose <span>DirectKey&trade;</span> Technology
       </div>
       <img src={DoorsImg} alt='directkey door header' />
       <h1>
         100 Million
         <span>...DOOR OPENINGS AND COUNTING.</span>
       </h1>
-      <h3>Direct Key&trade; Mobile Access Solution</h3>
+      <h3>DirectKey&trade; Mobile Access Solution</h3>
       <p>
         100 Million. That’s how many times DirectKey has unlocked doors in the
         past 5 years alone, across 2000 cities globally. Every one of those

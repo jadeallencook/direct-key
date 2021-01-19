@@ -1,4 +1,55 @@
 .App {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
+  img.Hand {
+    display: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+  .App {
+    max-width: 750px;
+    position: relative;
+    img.Hand {
+      display: block;
+      float: right;
+      position: absolute;
+      right: -50px;
+      margin-top: 310px;
+      height: 350px;
+    }
+    > header {
+      > div {
+        font-size: 2em;
+      }
+      > h1 {
+        font-size: 8em;
+        > span {
+            font-size: .20em;
+        }
+      }
+      > h3 {
+          margin: 35px 0;
+      }
+    }
+    > section.Stats {
+      > ol {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        > li {
+          margin-top: 25px;
+          align-items: center;
+          display: inline-block;
+          width: 135px;
+          height: 190px;
+          padding: 25px;
+        }
+      }
+    }
+  }
 }
