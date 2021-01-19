@@ -11,19 +11,18 @@ import { useState } from 'react';
 
 function App() {
   const [toggleForm, setToggleForm] = useState(false);
-  
+
   return (
-    <div className="App">
+    <div className='App'>
       <Navigation toggleForm={toggleForm} setToggleForm={setToggleForm} />
-      {
-        toggleForm && <Form />
-      }
-      {
-        !toggleForm && <>
+      {toggleForm ? (
+        <Form />
+      ) : (
+        <>
           <Header />
-          {
-            info.sections.map(({ title, icon, alt, description }, index) => {
-              return <Section
+          {info.sections.map(({ title, icon, alt, description }, index) => {
+            return (
+              <Section
                 title={title}
                 icon={icon}
                 alt={alt}
@@ -32,12 +31,12 @@ function App() {
                 toggleForm={toggleForm}
                 setToggleForm={setToggleForm}
               />
-            })
-          }
+            );
+          })}
           <Stats />
           <Footer />
         </>
-      }
+      )}
     </div>
   );
 }

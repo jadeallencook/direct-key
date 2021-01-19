@@ -1,25 +1,19 @@
 form {
-    position: fixed;
-    height: 100%;
-    min-width: inherit;
-    > div {
-        padding: 15px 0;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 100%;
-        gap: 10px;
-        justify-content: center;
-        > * {
-            min-width: 90%;
-            margin: 0 auto;
-        }
-        > input {
-            border: #06439c solid thin;
-            background-color: #FFFFFF;
-            padding: 15px;
-        }
-        > input[type=submit] {
-            color: #06439c;
-        }
-    }
+  padding: 25px 15px;
+  > input[type='text'],
+  > input[type='tel'],
+  > input[type='number'],
+  > input[type='email'] {
+    border: #06439c solid thin;
+    background-color: #ffffff;
+    padding: 15px;
+    min-width: 90%;
+    margin-bottom: 15px;
+  }
+  > input[type='submit'] {
+    color: #06439c;
+    min-width: 90%;
+    margin: 25px 0;
+    padding: 15px;
+  }
 }
