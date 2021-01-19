@@ -8,7 +8,7 @@ const info = {
             title: 'A Direct Way to “Go Contactless”',
             icon: CloudPhone,
             alt: 'cloud and phone',
-            description: 'Onity offers multiple ways to seamlessly deploy mobile access at your property - whether you want to use our DirectKey app, integrate DirectKey into your brand’s loyalty app or integrate DirectKey with a third- party app. Hotels also can reduce deployment costs and time while preserving their hardware investment, as DirectKey can retrofit to existing locks. And for new projects, Onity Trillium® and Serene™ locks are DirectKey-ready right out of the box. Easily incorporate the DirectKey system with existing property management systems (PMS) and Onity’s OnPortal™ locking and access control solution.'
+            description: 'Onity offers multiple ways to seamlessly deploy mobile access at your property - whether you want to use our DirectKey app, integrate DirectKey into your brand’s loyalty app or integrate DirectKey with a third—party app. Hotels also can reduce deployment costs and time while preserving their hardware investment, as DirectKey can retrofit to existing locks. And for new projects, Onity Trillium® and Serene™ locks are DirectKey—ready right out of the box. Easily incorporate the DirectKey system with existing property management systems (PMS) and Onity’s OnPortal™ locking and access control solution.'
         },
         {
             title: 'A Proven Solution Across Industries',
@@ -20,7 +20,7 @@ const info = {
             title: 'A Direct Way to Keep Properties & Guests Secure',
             icon: Lock,
             alt: 'padlock',
-            description: 'DirectKey technology protects mobile key credentials using 128-bit AES encryption which provides an additional layer of security on top of features already built into your locking system, such as user access permissions and audit trails.'
+            description: 'DirectKey technology protects mobile key credentials using 128—bit AES encryption which provides an additional layer of security on top of features already built into your locking system, such as user access permissions and audit trails.'
         }
     ],
     stats: [
