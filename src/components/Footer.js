@@ -13,9 +13,40 @@ function Footer() {
       <img src={LinkedIn} alt='linkedin social link' />
       <hr />
       <p>
-        Privacy Notice | Terms of Use | Vulnerability Reporting | A Carrier
-        Company | All Rights Reserved
-        <br /><br />© 2021 Carrier
+        <a
+          href='https://www.corporate.carrier.com/legal/privacy-notice'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Privacy Notice
+        </a>
+        {` | `}
+        <a
+          href='https://www.corporate.carrier.com/legal/terms-of-use'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Terms of Use
+        </a>
+        {` | `}
+        <a
+          href='https://www.ccs.utc.com/ccs/en/worldwide/contact-us/vulnerability-reporting/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Vulnerability Reporting
+        </a>
+        {` | `}
+        <a
+          href='https://www.corporate.carrier.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          A Carrier Company
+        </a>
+        {` | `}All Rights Reserved
+        <br />
+        <br />© 2021 Carrier
       </p>
     </footer>
   );
