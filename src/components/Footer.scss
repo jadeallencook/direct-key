@@ -20,5 +20,9 @@ footer {
     color: #06439c;
     font-size: 0.5em;
     padding: 0 50px;
+    > a {
+      text-decoration: none;
+      color: #06439c;
+    }
   }
 }
