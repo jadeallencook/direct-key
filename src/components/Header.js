@@ -21,7 +21,7 @@ function Header() {
         contactless era.
       </p>
       <p>
-        DirectKey allows guests to use Bluetooth® technology to unlock the door
+        DirectKey allows guests to use Bluetooth® to unlock the door
         while approaching it, without touching a phone to the reader - just
         secure and smooth entry into spaces across the property from the parking
         garage, to elevators, to guest rooms and beyond.
