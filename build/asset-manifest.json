@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/direct-key/build/static/css/main.0d88eada.chunk.css",
-    "main.js": "/direct-key/build/static/js/main.b5668b7f.chunk.js",
-    "main.js.map": "/direct-key/build/static/js/main.b5668b7f.chunk.js.map",
-    "runtime-main.js": "/direct-key/build/static/js/runtime-main.52dbb03e.js",
-    "runtime-main.js.map": "/direct-key/build/static/js/runtime-main.52dbb03e.js.map",
-    "static/js/2.2bd5c341.chunk.js": "/direct-key/build/static/js/2.2bd5c341.chunk.js",
-    "static/js/2.2bd5c341.chunk.js.map": "/direct-key/build/static/js/2.2bd5c341.chunk.js.map",
-    "static/js/3.88898011.chunk.js": "/direct-key/build/static/js/3.88898011.chunk.js",
-    "static/js/3.88898011.chunk.js.map": "/direct-key/build/static/js/3.88898011.chunk.js.map",
-    "index.html": "/direct-key/build/index.html",
-    "static/css/main.0d88eada.chunk.css.map": "/direct-key/build/static/css/main.0d88eada.chunk.css.map",
-    "static/js/2.2bd5c341.chunk.js.LICENSE.txt": "/direct-key/build/static/js/2.2bd5c341.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/direct-key/build/static/media/Graphik.3df58e7b.ttf",
-    "static/media/carrier-logo.0edc0975.svg": "/direct-key/build/static/media/carrier-logo.0edc0975.svg",
-    "static/media/cityscape-background.b1c257d0.png": "/direct-key/build/static/media/cityscape-background.b1c257d0.png",
-    "static/media/cloud-phone-icon.5642353b.png": "/direct-key/build/static/media/cloud-phone-icon.5642353b.png",
-    "static/media/holding-phone-foreground.129ce66a.png": "/direct-key/build/static/media/holding-phone-foreground.129ce66a.png",
-    "static/media/lock-icon.0e93e37a.png": "/direct-key/build/static/media/lock-icon.0e93e37a.png"
+    "main.css": "/static/css/main.7dcbffa9.chunk.css",
+    "main.js": "/static/js/main.d23656cf.chunk.js",
+    "main.js.map": "/static/js/main.d23656cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb641b9f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb641b9f.js.map",
+    "static/js/2.2bd5c341.chunk.js": "/static/js/2.2bd5c341.chunk.js",
+    "static/js/2.2bd5c341.chunk.js.map": "/static/js/2.2bd5c341.chunk.js.map",
+    "static/js/3.88898011.chunk.js": "/static/js/3.88898011.chunk.js",
+    "static/js/3.88898011.chunk.js.map": "/static/js/3.88898011.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7dcbffa9.chunk.css.map": "/static/css/main.7dcbffa9.chunk.css.map",
+    "static/js/2.2bd5c341.chunk.js.LICENSE.txt": "/static/js/2.2bd5c341.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Graphik.3df58e7b.ttf",
+    "static/media/carrier-logo.0edc0975.svg": "/static/media/carrier-logo.0edc0975.svg",
+    "static/media/cityscape-background.b1c257d0.png": "/static/media/cityscape-background.b1c257d0.png",
+    "static/media/cloud-phone-icon.5642353b.png": "/static/media/cloud-phone-icon.5642353b.png",
+    "static/media/holding-phone-foreground.129ce66a.png": "/static/media/holding-phone-foreground.129ce66a.png",
+    "static/media/lock-icon.0e93e37a.png": "/static/media/lock-icon.0e93e37a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.52dbb03e.js",
+    "static/js/runtime-main.fb641b9f.js",
     "static/js/2.2bd5c341.chunk.js",
-    "static/css/main.0d88eada.chunk.css",
-    "static/js/main.b5668b7f.chunk.js"
+    "static/css/main.7dcbffa9.chunk.css",
+    "static/js/main.d23656cf.chunk.js"
   ]
 }

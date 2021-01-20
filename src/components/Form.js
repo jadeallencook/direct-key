@@ -13,9 +13,10 @@ function Form() {
     [rooms, setRooms] = useState(),
     [existing, setExisting] = useState(false),
     [contact, setContact] = useState(false),
-    [subscribe, setSubscribe] = useState(false);
+    [subscribe, setSubscribe] = useState(false),
+    [response, setResponse] = useState(null);
 
-  return (
+  return !response ? (
     <form>
       <input
         type='text'
@@ -123,10 +124,12 @@ function Form() {
             existing_customer: existing,
             contact_me: contact,
             subscribe,
-          }).then((data) => console.log(data));
+          }).then((data) => setResponse(data));
         }}
       />
     </form>
+  ) : (
+      <h2>{response.status === 200 ? 'Success!' : 'Error'}</h2>
   );
 }
 
