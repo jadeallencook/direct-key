@@ -8,6 +8,9 @@ header {
     text-align: center;
     > span {
       color: #009fdb;
+      >span {
+        font-size: .5em;
+      }
     }
   }
   > h1 {

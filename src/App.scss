@@ -12,7 +12,7 @@ button {
 
 @media only screen and (min-width: 700px) {
   .App {
-    max-width: 750px;
+    max-width: 1200px;
     position: relative;
     img.Hand {
       display: block;
@@ -20,7 +20,7 @@ button {
       position: absolute;
       right: -50px;
       margin-top: 310px;
-      height: 350px;
+      height: 325px;
     }
     > header {
       > div {
@@ -45,7 +45,7 @@ button {
           margin-top: 25px;
           align-items: center;
           display: inline-block;
-          width: 135px;
+          width: 90%;
           height: 190px;
           padding: 25px;
         }

@@ -7,17 +7,6 @@ import LinkedIn from '../assets/linkedin-icon.png';
 function Footer() {
   return (
     <footer>
-      <p>Related Links:</p>
-      <p>
-        See DirectKey’s Evolution | Learn more about DirectKey | Get in Touch
-      </p>
-      <a
-        href='https://www.linkedin.com/company/onity'
-        target='_blank'
-        rel='noreferrer'
-      >
-        <img src={LinkedIn} alt='linkedin social link' />
-      </a>
       <hr />
       <div>
         <div>
@@ -28,7 +17,13 @@ function Footer() {
           >
             <img src={Carrier} alt='carrier logo' />
           </a>
-          <img src={Healthy} alt='healthy buildings logo' />
+          <a
+            href='https://www.corporate.carrier.com/healthybuildings/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={Healthy} alt='healthy buildings logo' />
+          </a>
         </div>
         <p>
           © 2021 Carrier. All Rights Reserved. Bluetooth is a registered
@@ -48,6 +43,13 @@ function Footer() {
             Terms of Use
           </a>
         </p>
+        <a
+          href='https://www.linkedin.com/company/onity'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img src={LinkedIn} alt='linkedin social link' />
+        </a>
       </div>
     </footer>
   );

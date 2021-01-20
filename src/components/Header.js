@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <div>
-        100 MILLION Reasons to Choose <span>DirectKey&trade;</span> Technology
+        100 MILLION Reasons to Choose <span>DirectKey<span>&trade;</span></span> Technology
       </div>
       <img src={DoorsImg} alt='directkey door header' />
       <h1>

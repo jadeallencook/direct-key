@@ -109,7 +109,8 @@ function Form() {
       <input
         type='submit'
         value='Post'
-        onClick={() =>
+        onClick={(e) => {
+          e.preventDefault();
           submitForm({
             Name,
             Title,
@@ -122,8 +123,8 @@ function Form() {
             existing_customer: existing,
             contact_me: contact,
             subscribe,
-          }).then((data) => console.log(data))
-        }
+          }).then((data) => console.log(data));
+        }}
       />
     </form>
   );

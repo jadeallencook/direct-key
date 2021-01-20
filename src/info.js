@@ -1,6 +1,6 @@
 import CloudPhone from './assets/cloud-phone-icon.png';
 import Lock from './assets/lock-icon.png';
-import BluetoothLock from './assets/bluetooth-lock-icon.png';
+import BluetoothLock from './assets/door-handle.png';
 
 const info = {
     sections: [
