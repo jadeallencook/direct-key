@@ -3,10 +3,10 @@ nav {
     text-align: center;
     padding: 15px 0;
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
-    > div > img {
-        width: 100px;
-        margin-bottom: -10px;
+    grid-template-columns: 1fr 175px 1fr;
+    max-width: 100%;
+    > div > a > img {
+        width: 125px;
         float: none;
         cursor: pointer;
     }

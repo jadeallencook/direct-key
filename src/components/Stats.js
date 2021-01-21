@@ -19,8 +19,9 @@ function Stats() {
         })}
       </ol>
       <p>
-        *Bluetooth locking devices and mobile key credentialing solution
-        deployed with Carrier technology across multiple industries
+        *Contactless unlocking with mobile access. Bluetooth locking devices and
+        mobile key credentialing solution deployed with Carrier technology
+        across multiple industries.
       </p>
     </section>
   );

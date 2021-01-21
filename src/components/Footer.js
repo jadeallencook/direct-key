@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.scss';
 import Carrier from '../assets/carrier-logo.svg';
 import Healthy from '../assets/healthy-buildings.png';
-import LinkedIn from '../assets/linkedin-icon.png';
+import LinkedIn from '../assets/linkedin-icon.svg';
 
 function Footer() {
   return (
@@ -11,7 +11,7 @@ function Footer() {
       <div>
         <div>
           <a
-            href='http://directkey.onity.com/images/logo-carrier.png'
+            href='https://www.corporate.carrier.com/'
             target='_blank'
             rel='noreferrer'
           >
